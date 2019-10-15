@@ -1,0 +1,53 @@
+:host {
+  display: block;
+  margin-top: 1rem;
+}
+
+mat-spinner {
+  margin: auto;
+}
+
+mat-paginator {
+  margin-top: 1rem;
+}
+
+.info-text {
+  text-align: center;
+}
+
+.post-image {
+  width: 100%;
+  
+}
+.timeline {
+  background-color: rgba(0, 151, 19, 0.0);
+  height:100vh;
+}
+
+.post-image img {
+  width: 50%;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.post {
+  width:70%;
+  padding-left: 15%;
+  opacity: 0.9%;
+  padding-top:5%;
+}
+.paginator {
+  background-color: rgba(0,0,0,1);
+}
+.singlePost {
+  background-color:rgba(0, 0, 0, 1);
+  color:white;
+  font-family: 'Times New Roman', Times, serif;
+}
+.addStory {
+  background-color: black;
+  color:white;
+}
+.button{
+  background-color: white;
+  color:black;
+}

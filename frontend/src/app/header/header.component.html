@@ -1,0 +1,18 @@
+<mat-toolbar class="topNavigation">
+  <img src="../assets/images/logo.png" alt="logo" class="logo">
+  <span class="title">
+    <a routerLink="/">Pile Of Tales</a>
+  </span>
+  <span class="spacer"></span>
+  <ul class="items">
+    <li *ngIf="!userIsAuthenticated">
+      <a mat-button routerLink="/login" routerLinkActive="mat-accent">Login</a>
+    </li>
+    <li *ngIf="!userIsAuthenticated">
+      <a mat-button routerLink="/signup" routerLinkActive="mat-accent">Signup</a>
+    </li>
+    <li *ngIf="userIsAuthenticated">
+      <button mat-button (click)="onLogout()">Logout</button>
+    </li>
+  </ul>
+</mat-toolbar>

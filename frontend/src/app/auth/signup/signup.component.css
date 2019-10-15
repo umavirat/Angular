@@ -1,0 +1,40 @@
+mat-form-field {
+  width: 100%;
+}
+mat-form-field,
+:placeholder-shown {
+  font-family: 'Times New Roman', Times, serif
+}
+
+
+mat-spinner {
+  margin: auto;
+}
+.regForm {
+  padding-top: 5%;
+  width:50%;
+  padding-left: 25%;
+}
+.regTitle {
+  font-family: 'Times New Roman', Times, serif;
+  color: #00ff7f; 
+  font-weight: bold;
+}
+mat-card {
+  background-color: black;
+  opacity: 0.9;
+  font-family: 'Times New Roman', Times, serif;
+}
+.example-radio-group {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+
+.radioButton {
+  margin: 3px;
+}
+
+.radioName {
+  font-family: 'Times New Roman', Times, serif;
+}

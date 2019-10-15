@@ -1,0 +1,22 @@
+mat-form-field {
+  width: 100%;
+}
+mat-spinner {
+  margin: auto;
+}
+
+.loginForm {
+  padding-top: 5%;
+  width:50%;
+  padding-left: 25%;
+}
+mat-card {
+  background-color: black;
+  opacity: 0.9;
+  font-family: 'Times New Roman', Times, serif;
+}
+.logTitle {
+  font-family: 'Times New Roman', Times, serif;
+  color: #00ff7f;
+  font-weight: bold;
+}
